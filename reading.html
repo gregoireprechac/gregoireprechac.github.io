@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reading — Grégoire Préchac</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+<nav id="navbar"><div class="nav-inner">
+  <a href="index.html" class="nav-monogram">GP</a>
+  <button class="nav-burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li><li><a href="research.html">Research</a></li>
+    <li><a href="writings.html">Writings</a></li><li><a href="reading.html" class="active">Reading</a></li>
+    <li><a href="cv.html">CV</a></li><li><a href="contact.html">Contact</a></li>
+  </ul>
+</div></nav>
+<!--
+  HOW TO ADD A BOOK OR ARTICLE:
+  Copy one <article> block. Set data-type="book" or "article", data-rating="1" to "5".
+  Update reading-type, reading-title, reading-author, reading-review, reading-status (class + label).
+  For articles add: <a href="DOI" class="card-link">View source</a>
+  Save. Done.
+-->
+<div class="page-header"><div class="page-header-inner">
+  <div class="section-label">Reading</div>
+  <h1 class="page-title">Books &amp; Articles</h1>
+  <p class="page-sub">Things I have read, with notes. Neuroscience, philosophy, and the occasional novel.</p>
+</div></div>
+<section><div class="section-inner">
+  <div class="reading-filters" role="tablist">
+    <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+    <button class="filter-btn" data-filter="book" role="tab" aria-selected="false">Books</button>
+    <button class="filter-btn" data-filter="article" role="tab" aria-selected="false">Articles</button>
+  </div>
+  <div class="reading-grid" id="readingCards">
+
+    <!-- BOOK -->
+    <article class="reading-card" data-type="book" data-rating="5">
+      <div class="reading-type">Book · 2004</div>
+      <div class="reading-title">Phi: A Voyage from the Brain to the Soul</div>
+      <div class="reading-author">Giulio Tononi</div>
+      <div class="reading-stars"></div>
+      <p class="reading-review">Tononi presents IIT through a Galileo-inspired dialogue. A rare book that is both philosophically serious and genuinely beautiful to read.</p>
+      <div class="reading-status read">Read</div>
+    </article>
+
+    <!-- BOOK -->
+    <article class="reading-card" data-type="book" data-rating="4">
+      <div class="reading-type">Book · 1991</div>
+      <div class="reading-title">Consciousness Explained</div>
+      <div class="reading-author">Daniel Dennett</div>
+      <div class="reading-stars"></div>
+      <p class="reading-review">The most disciplined attempt to account for consciousness without invoking anything beyond the physical. Worth reading even where you disagree.</p>
+      <div class="reading-status read">Read</div>
+    </article>
+
+    <!-- BOOK -->
+    <article class="reading-card" data-type="book" data-rating="5">
+      <div class="reading-type">Book · 2003</div>
+      <div class="reading-title">Being No One</div>
+      <div class="reading-author">Thomas Metzinger</div>
+      <div class="reading-stars"></div>
+      <p class="reading-review">Dense but essential. Metzinger's self-model theory of subjectivity is one of the few serious attempts to give consciousness a mechanistic account without hand-waving.</p>
+      <div class="reading-status read">Read</div>
+    </article>
+
+    <!-- ARTICLE -->
+    <article class="reading-card" data-type="article" data-rating="5">
+      <div class="reading-type">Article · 2008</div>
+      <div class="reading-title">Consciousness as Integrated Information: A Provisional Manifesto</div>
+      <div class="reading-author">Giulio Tononi</div>
+      <div class="reading-stars"></div>
+      <p class="reading-review">The clearest statement of IIT before it became fully formalised. Essential for understanding what the axiomatic approach is actually trying to do.</p>
+      <div class="reading-status read">Read</div>
+    </article>
+
+    <!-- ARTICLE -->
+    <article class="reading-card" data-type="article" data-rating="4">
+      <div class="reading-type">Article · 2016</div>
+      <div class="reading-title">Integrated information theory: from consciousness to its physical substrate</div>
+      <div class="reading-author">Giulio Tononi et al.</div>
+      <div class="reading-stars"></div>
+      <p class="reading-review">The full formalisation of IIT 3.0. Technically demanding but necessary for anyone engaging seriously with the theory's axiomatic structure.</p>
+      <div class="reading-status read">Read</div>
+      <a href="https://doi.org/10.1038/nrn.2016.44" target="_blank" rel="noopener" class="card-link">View source →</a>
+    </article>
+
+    <!-- BOOK currently reading -->
+    <article class="reading-card" data-type="book" data-rating="4">
+      <div class="reading-type">Book · 1996</div>
+      <div class="reading-title">The Conscious Mind</div>
+      <div class="reading-author">David Chalmers</div>
+      <div class="reading-stars"></div>
+      <p class="reading-review">Chalmers' formulation of the hard problem remains the sharpest statement of why functional explanations feel insufficient. The argument is more careful than its critics usually acknowledge.</p>
+      <div class="reading-status reading">Currently reading</div>
+    </article>
+
+  </div>
+</div></section>
+<footer><div class="footer-inner"><span>2026 Grégoire Préchac</span><span class="footer-divider">·</span><span>Lausanne, Switzerland</span></div></footer>
+<script src="assets/script.js"></script>
+</body></html>

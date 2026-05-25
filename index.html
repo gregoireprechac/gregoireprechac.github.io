@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grégoire Préchac</title>
+  <meta name="description" content="Master student in the Neuro-X program at EPFL. Working on EEG, consciousness, and the conceptual foundations of neuroscience."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-monogram">GP</a>
+    <button class="nav-burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="writings.html">Writings</a></li>
+      <li><a href="reading.html">Reading</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="hero">
+  <div class="hero-content">
+    <h1 class="hero-name">Grégoire Préchac</h1>
+    <div class="navy-rule"></div>
+    <p class="hero-tagline">
+      <span>Cognitive Neuroscience</span><span class="dot">·</span>
+      <span>Philosophy of Mind</span><span class="dot">·</span>
+      <span>Epistemology</span>
+    </p>
+    <p class="hero-sub">Master student in the Neuro-X program at EPFL. Working on EEG, inter-individual differences, and the conceptual foundations of consciousness.</p>
+    <div class="hero-cta">
+      <a href="research.html" class="btn-primary">Research</a>
+      <a href="essays.html" class="btn-ghost">Essays</a>
+    </div>
+    <nav class="hero-nav" aria-label="More sections">
+      <a href="reading.html" class="btn-pill">Reading</a>
+      <a href="cv.html" class="btn-pill">CV</a>
+      <a href="contact.html" class="btn-pill">Contact</a>
+    </nav>
+  </div>
+  <div class="hero-deco" aria-hidden="true">
+    <svg class="deco-circle" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="200" cy="200" r="180" fill="none" stroke="#1c2e4a" stroke-width="0.8" opacity="0.6"/>
+      <circle cx="200" cy="200" r="140" fill="none" stroke="#1c2e4a" stroke-width="0.6" opacity="0.4"/>
+      <circle cx="200" cy="200" r="90"  fill="none" stroke="#1c2e4a" stroke-width="0.5" opacity="0.25"/>
+      <line x1="20"  y1="200" x2="380" y2="200" stroke="#1c2e4a" stroke-width="0.5" opacity="0.3"/>
+      <line x1="200" y1="20"  x2="200" y2="380" stroke="#1c2e4a" stroke-width="0.5" opacity="0.3"/>
+      <circle cx="200" cy="200" r="4" fill="#1c2e4a" opacity="0.5"/>
+    </svg>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <div class="section-label">About</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>At the intersection<br><em>of brain and thought.</em></h2>
+        <p>I am a Neuro-X master student at EPFL, working between neuroscience, philosophy, and the conceptual questions that connect them. In Prof. Herzog's laboratory, my thesis research involves designing and running fMRI-EEG experiments on inter-individual differences in neural signals. Alongside that, I am working on a paper examining the axiomatic foundations of Integrated Information Theory and its epistemological consequences.</p>
+        <p>Philosophy has always shaped how I approach science. Since 2022, I run the EPFL Philosophy Association, organising conferences and discussions on ethics, consciousness, and the boundary between philosophy and science. I co-founded the Swiss Student Chopin Contest and have been playing piano for thirteen years.</p>
+        <p>Outside neuroscience, I read widely in politics, literature, and history. I think that breadth makes better science.</p>
+      </div>
+      <div class="about-aside">
+        <div class="aside-block">
+          <div class="aside-label">Current position</div>
+          <div class="aside-value">Master Thesis Student<br>Neuro-X, EPFL</div>
+        </div>
+        <div class="aside-block">
+          <div class="aside-label">Education</div>
+          <div class="aside-value">MSc Neuro-X, EPFL<br>2024 – present</div>
+        </div>
+        <div class="aside-block">
+          <div class="aside-label">Research focus</div>
+          <div class="aside-value">EEG and fMRI<br>Consciousness and IIT<br>Philosophy of neuroscience</div>
+        </div>
+        <div class="aside-block">
+          <div class="aside-label">And more</div>
+          <div class="aside-value aside-list">
+            <span>President, EPFL Philosophy Association</span>
+            <span>Co-founder, Swiss Student Chopin Contest</span>
+            <span>Thirteen years of piano</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <div class="preview-hdr">
+      <div><div class="section-label">Research</div><h2>Projects</h2></div>
+      <a href="research.html" class="preview-see-all">All projects →</a>
+    </div>
+    <div class="research-grid">
+      <article class="research-card featured">
+        <div class="card-tag">Current · 2025 – present · Prof. Herzog's Lab, EPFL and CMU</div>
+        <h3>Inter-individual Differences in EEG Signals</h3>
+        <p>Master thesis project (60% then 100% ongoing). Conceptualising and building an fMRI-EEG experiment in Matlab. Work includes acquisition, building the preprocessing pipeline, ERP analysis, head modeling, and forward modeling.</p>
+        <div class="card-tags"><span>EEG</span><span>fMRI</span><span>Matlab</span><span>ERP Analysis</span><span>Head Modeling</span></div>
+      </article>
+      <article class="research-card">
+        <div class="card-tag">2024 – present · Prof. Herzog's Lab, EPFL</div>
+        <h3>Axiomatic Approach of IIT and its Epistemological Consequences</h3>
+        <p>Conceptual research project working on a paper analyzing the axiomatic framework of Integrated Information Theory and building philosophical and empirical arguments from neuroscience.</p>
+        <div class="card-tags"><span>IIT</span><span>Philosophy of Mind</span><span>Epistemology</span></div>
+      </article>
+      <article class="research-card">
+        <div class="card-tag">2025 · CMU, Geneva</div>
+        <h3>fMRI-EEG Study on Neurofeedback</h3>
+        <p>Acquisition, preprocessing, and frequency and ERP analysis of EEG signals. Built the full preprocessing and analysis pipeline in Python.</p>
+        <div class="card-tags"><span>EEG</span><span>Neurofeedback</span><span>Python</span><span>ERP</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <div class="preview-hdr">
+      <div><div class="section-label">Writings</div><h2>Essays &amp; Courses</h2></div>
+      <a href="writings.html" class="preview-see-all">All writings →</a>
+    </div>
+    <div class="essays-grid">
+      <article class="essay-card">
+        <div class="essay-meta">Essay · March 2024 · EPΦL</div>
+        <h3>Can Sciences Replace Philosophy?</h3>
+        <p>From Descartes and Popper to Rousseau and Jane Goodall, a question about what changed and whether science and philosophy can still answer the big questions together.</p>
+        <a href="writing/can-sciences.html" class="card-link">Read →</a>
+      </article>
+      <article class="essay-card">
+        <div class="essay-meta">Cours · February 2024 · EPΦL</div>
+        <h3>Socrate, père de la Philosophie</h3>
+        <p>Les sources disponibles, la méthode socratique et pourquoi Socrate demeure la figure fondatrice de la tradition philosophique occidentale.</p>
+        <a href="writing/socrate.html" class="card-link">Lire →</a>
+      </article>
+      <article class="essay-card">
+        <div class="essay-meta">Cours · February 2024 · EPΦL</div>
+        <h3>Introduction aux Cours de Philosophie</h3>
+        <p>Pourquoi faire de la philosophie dans une institution scientifique ? Une introduction au rôle de la discipline et à son rapport avec les sciences.</p>
+        <a href="writing/intro-philosophie.html" class="card-link">Lire →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <div class="preview-hdr">
+      <div><div class="section-label">Reading</div><h2>Books &amp; Articles</h2></div>
+      <a href="reading.html" class="preview-see-all">Full reading list →</a>
+    </div>
+    <div class="reading-grid">
+      <article class="reading-card">
+        <div class="reading-type">Book · 2004</div>
+        <div class="reading-title">Phi: A Voyage from the Brain to the Soul</div>
+        <div class="reading-author">Giulio Tononi</div>
+        <div class="reading-stars" data-rating="5"></div>
+        <p class="reading-review">Tononi presents IIT through a Galileo-inspired dialogue. A rare book that is both philosophically serious and genuinely beautiful to read.</p>
+        <div class="reading-status read">Read</div>
+      </article>
+      <article class="reading-card">
+        <div class="reading-type">Book · 1991</div>
+        <div class="reading-title">Consciousness Explained</div>
+        <div class="reading-author">Daniel Dennett</div>
+        <div class="reading-stars" data-rating="4"></div>
+        <p class="reading-review">Dennett's heterophenomenology remains the most disciplined attempt to account for consciousness without invoking anything beyond the physical. Worth reading even where you disagree.</p>
+        <div class="reading-status read">Read</div>
+      </article>
+      <article class="reading-card">
+        <div class="reading-type">Article · 2008</div>
+        <div class="reading-title">Consciousness as Integrated Information: A Provisional Manifesto</div>
+        <div class="reading-author">Giulio Tononi</div>
+        <div class="reading-stars" data-rating="5"></div>
+        <p class="reading-review">The clearest single statement of IIT before it became a fully formalised system. Essential for understanding what the axiomatic approach is actually trying to do.</p>
+        <div class="reading-status read">Read</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <div class="preview-hdr">
+      <div><div class="section-label">CV</div><h2>Background</h2></div>
+      <a href="cv.html" class="preview-see-all">Full CV →</a>
+    </div>
+    <div class="cv-preview-list">
+      <div class="cv-preview-item">
+        <div class="cv-preview-year">2025 – now</div>
+        <div><div class="cv-preview-role">Master Thesis, Prof. Herzog's Lab, EPFL and CMU</div><div class="cv-preview-place">Inter-individual differences in EEG signals</div></div>
+      </div>
+      <div class="cv-preview-item">
+        <div class="cv-preview-year">2024 – now</div>
+        <div><div class="cv-preview-role">MSc Neuro-X, EPFL</div><div class="cv-preview-place">Neuroengineering and data sciences</div></div>
+      </div>
+      <div class="cv-preview-item">
+        <div class="cv-preview-year">2024</div>
+        <div><div class="cv-preview-role">EEG Internship, Bavelier Lab, CMU Geneva</div><div class="cv-preview-place">EEG acquisition and preprocessing (MNE, ICA)</div></div>
+      </div>
+      <div class="cv-preview-item">
+        <div class="cv-preview-year">2020 – 2024</div>
+        <div><div class="cv-preview-role">BSc Life Sciences, EPFL</div></div>
+      </div>
+    </div>
+    <a href="assets/CV_2026_gregoire_prechac.pdf" class="btn-ghost" download>Download CV (PDF)</a>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner contact-inner">
+    <div class="section-label">Contact</div>
+    <h2>Get in Touch</h2>
+    <p class="contact-sub">For research collaborations, academic inquiries, or anything else.</p>
+    <div class="contact-links">
+      <a href="mailto:gregoire.prechac@epfl.ch" class="contact-item">
+        <span class="contact-icon">&#9993;</span><span>gregoire.prechac@epfl.ch</span>
+      </a>
+      <a href="https://linkedin.com/in/grégoire-préchac" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-icon" style="font-family:var(--fs);font-size:.85rem;font-weight:500">in</span><span>LinkedIn</span>
+      </a>
+      <a href="YOUR_SUBSTACK_URL" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-icon">&#10022;</span><span>Substack</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <span>2026 Grégoire Préchac</span>
+    <span class="footer-divider">·</span>
+    <span>Lausanne, Switzerland</span>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
